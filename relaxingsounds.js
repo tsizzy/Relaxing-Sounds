@@ -98,31 +98,31 @@ var andanteOutput =  function(){
 } 
 
 var sound = function(){
-	tides = new Audio("sounds/tide_waves.wav");
+	tides = new Audio("tide_waves.wav");
     tides.play();
 	tides.loop = true;
 
-	chimes = new Audio("sounds/chimes.wav");
+	chimes = new Audio("chimes.wav");
     chimes.play();
     chimes.loop = true;
 
-    flute = new Audio("sounds/chinese_flute.wav");
+    flute = new Audio("chinese_flute.wav");
 	flute.play();
 	flute.loop = true;
 
-	jungle = new Audio("sounds/jungle.wav"); 
+	jungle = new Audio("jungle.wav"); 
     jungle.play();
     jungle.loop = true;
 
-    sax = new Audio("sounds/saxophone.wav");
+    sax = new Audio("saxophone.wav");
     sax.play();
     sax.loop = true;
 
-    thunder = new Audio("sounds/thunder.wav");
+    thunder = new Audio("thunder.wav");
     thunder.play();
     thunder.loop = true;
 
-    andante = new Audio("sounds/andante.mp3");
+    andante = new Audio("andante.mp3");
     andante.play();
     andante.loop = true;
 }
