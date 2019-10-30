@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset = "UTF-8">
+ 	<meta name = "description" content = "">
+ 	<meta name = "keywords" content = "">
+ 	<meta name = "author" content = "Katherine Mejia">
+ 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 	<link rel = "stylesheet" type = "text/css" href="relaxingsounds.css">
+ 	<title>Relaxing Sounds Slider</title>
+</head>
+<body >
+	<h1>Relaxing Sounds Slider</h1>
+   <div class="slidecontainer">
+
+    <div class = "volume">
+      <input type="range" min="0" max="10" value="5" class="slider" id="tides_volume" oninput = "tidesOutput()">
+      <p>Volume: </br><span id="tides_vol_output"></span></p>
+    </div>  
+
+    <div class = "volume">
+      <input type="range" min="0" max="10" value="5" class="slider" id="chimes_volume" oninput = "chimesOutput()">
+      <p>Volume: </br><span id="chime_vol_output"></span></p>
+    </div>
+
+    <div class = "volume">
+      <input type="range" min="0" max="10" value="5" class="slider" id="flute_volume" oninput = "fluteOutput()">
+      <p>Volume: </br><span id="flute_vol_output"></span></p>
+    </div>
+
+    <div class = "volume">
+      <input type="range" min="0" max="10" value="5" class="slider" id="jungle_volume" oninput = "jungleOutput()">
+      <p>Volume: </br><span id="jungle_vol_output"></span></p>
+    </div>
+
+    <div class = "volume">
+      <input type="range" min="0" max="10" value="5" class="slider" id="sax_volume" oninput = "saxOutput()">
+      <p>Volume: </br><span id="sax_vol_output"></span></p>
+    </div>
+
+    <div class = "volume">
+      <input type="range" min="0" max="10" value="5" class="slider" id="thunder_volume" oninput = "thunderOutput()">
+      <p>Volume: </br><span id="thunder_vol_output"></span></p>
+    </div>
+
+    <div class = "volume">
+      <input type="range" min="0" max="10" value="5" class="slider" id="andante_volume" oninput = "andanteOutput()" >
+      <p>Volume: </br><span id="and_vol_output"></span></p>
+     </div>
+
+   
+  
+    <p id = "testing"></p>
+
+   
+    <p>So far, this only works in Firefox. Working on more browser compatibility</p>
+    
+	<script src = "relaxingsounds.js">
+	</script>
+	
+</body>
+</html>
